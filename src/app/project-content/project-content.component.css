@@ -1,0 +1,33 @@
+.content{
+    margin-top: 16px;
+}
+
+div{
+    justify-content: center;
+}
+
+.text{
+    margin-top: 25px;
+    font-size: 15pt;
+    padding: 0;
+    text-align: justify;
+}
+
+.title{
+    margin-top: 8px;
+    font-size: 18pt;
+    text-align: center;
+}
+
+    
+button{
+    font-size: 15pt;
+    background-color: rgba(255, 0, 0, 0.795);
+    color: seashell;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: red;
+    box-shadow: 0 1px 2px 4px red;
+}

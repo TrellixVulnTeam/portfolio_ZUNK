@@ -19,6 +19,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { NavComponent } from './nav/nav.component';
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { FooterComponent } from './footer/footer.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { SkillistComponent } from './skillist/skillist.component';
+import { PfProjectComponent } from './pf-project/pf-project.component';
+import { ProjectContentComponent } from './project-content/project-content.component';
+
+
 
 
 
@@ -33,6 +43,10 @@ import { NavComponent } from './nav/nav.component';
     ContactComponent,
     NavigationComponent,
     NavComponent,
+    FooterComponent,
+    SkillistComponent,
+    PfProjectComponent,
+    ProjectContentComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +58,11 @@ import { NavComponent } from './nav/nav.component';
     LayoutModule,
     MatButtonModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatInputModule,
+    FormsModule,
+    FlexLayoutModule, 
+    MatGridListModule
 
 
   ],

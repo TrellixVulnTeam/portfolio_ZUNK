@@ -11,11 +11,7 @@ const FileSaver = require('file-saver');
 export class AboutComponent implements OnInit {
 
   constructor() { }
-  downloadFile() {
-    const pdfUrl = './files/MonCvEtudiant.pdf';
-    const pdfName = 'CV';
-    FileSaver.saveAs(pdfUrl, pdfName);
-  }
+ 
 
   ngOnInit(): void {
   }

@@ -42,7 +42,8 @@
 .name{
   font-size: 1.5em;
   color: rgba(255, 255, 255, 0.836);
-  margin-left: 25px;
+  margin-left: 50px;
+ 
 }
 
 mat-nav-list a{

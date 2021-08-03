@@ -1,0 +1,26 @@
+.footer {
+    font-size: 15pt;
+    text-align: center;
+    color: grey;
+    line-height: initial;
+  }
+
+  footer span{
+      color: red;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  @media only screen and (max-width:599px) {
+    footer{
+      font-size: 10pt;
+    }
+  
+    footer span{
+      font-size: 12pt;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  
+  
+  }

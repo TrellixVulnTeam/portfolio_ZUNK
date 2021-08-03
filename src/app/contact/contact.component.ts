@@ -9,6 +9,12 @@ export class ContactComponent implements OnInit {
 
   constructor() { }
 
+  click(){
+    window.alert(
+      'message sent'
+    )
+  }
+
   ngOnInit(): void {
   }
 

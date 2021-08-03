@@ -3,12 +3,14 @@
 /*============= pf-cover & social ==================*/
 
 .pf-cover{
-  background-image: url('https://scontent-cdt1-1.xx.fbcdn.net/v/t1.6435-9/203266100_1909723489187536_4365229349956193185_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=e3f864&_nc_ohc=_CvY8mj19bUAX9Y6L9e&_nc_oc=AQl3ewB9Dwc_lRblAcao4bTlrGFLd1Z56JAx7qe5bNrgSHaqqj2XHapzJfByiFIP_hs&_nc_ht=scontent-cdt1-1.xx&oh=980cf173a1eec1a8d53ae320d42e3ae6&oe=612967ED');
+  background-image: url('https://scontent-cdt1-1.xx.fbcdn.net/v/t39.30808-6/230717953_135203882037370_5514022507710897803_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=e3f864&_nc_ohc=lv-F7_pLcMoAX9fz8CD&tn=mZip1LNSieBOmyiA&_nc_ht=scontent-cdt1-1.xx&oh=c85865d646fe0a8550ec56d6b84047bc&oe=610CBB5E');
   display: block;
   width: 100%;
   height: 94%;
   overflow: hidden;
   background-size: cover;
+  background-position: center;
+
 
 }
 
@@ -22,8 +24,9 @@
 }
 
  .content{
+   margin-top: 400px;
   text-align: center;
-}
+  }
 
 .callme{
   display: block;
@@ -36,6 +39,10 @@
  .social{
   bottom: 0;
   left: 0;
+}
+
+.social .list a:hover{
+  transform: translateY(-10px);
 }
 
 
@@ -76,7 +83,9 @@ li{
   display: flex;
   width: 100%;
   justify-content: center;
-  padding-top: 96px;
+  margin-top: 96px;
+  margin-bottom: 96px;
+
 }
 
 .block{
@@ -108,28 +117,6 @@ li{
   margin: 0;
   padding: 0;
 }
-
-@media only screen and (max-width:1400px) {
-  .text{
-    font-size: 15pt;;
-  }
-
-  .text1{
-    font-size: 15pt;;
-  }
-}
-
-@media only screen and (max-width:900px) {
-  .text{
-    font-size: 13pt;;
-  }
-
-  .text1{
-    font-size: 13pt;;
-  }
-
-}
-
 
 
 .button{
@@ -186,4 +173,44 @@ li{
   padding-bottom: 5px;
 }
 
+@media only screen and (max-width:1400px) {
+  .text{
+    font-size: 15pt;
+  }
+
+  .text1{
+    font-size: 15pt;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .text{
+    font-size: 13pt;
+  }
+
+  .text1{
+    font-size: 13pt;
+  }
+
+}
+
+@media only screen and (max-width:599px) {
+  .content{
+    margin-top: 100px;
+  }
+  
+  .text{
+    font-size: 13pt;
+  }
+
+  .text1{
+    font-size: 12pt;
+  }
+
+  .callme{
+    font-size: 25pt;
+  }
+
+
+}
 
