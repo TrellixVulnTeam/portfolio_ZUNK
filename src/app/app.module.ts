@@ -4,13 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
+
 import { AboutComponent } from './about/about.component';
 import { SkillComponent } from './skill/skill.component';
+import { SkillistComponent } from './skillist/skillist.component';
 import { ProjectComponent } from './project/project.component';
+import { PfProjectComponent } from './pf-project/pf-project.component';
+import { ProjectContentComponent } from './project-content/project-content.component';
 
 import { ContactComponent } from './contact/contact.component'
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import { NavigationComponent } from './navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,14 +23,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { NavComponent } from './nav/nav.component';
-import {MatInputModule} from '@angular/material/input';
+import { MatInputModule} from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
-import {MatGridListModule} from '@angular/material/grid-list';
-import { SkillistComponent } from './skillist/skillist.component';
-import { PfProjectComponent } from './pf-project/pf-project.component';
-import { ProjectContentComponent } from './project-content/project-content.component';
+
+
+
+
+
 
 
 
@@ -39,14 +44,14 @@ import { ProjectContentComponent } from './project-content/project-content.compo
     AppComponent,
     AboutComponent,
     SkillComponent,
+    SkillistComponent,
     ProjectComponent,
+    PfProjectComponent,
+    ProjectContentComponent,
     ContactComponent,
     NavigationComponent,
     NavComponent,
     FooterComponent,
-    SkillistComponent,
-    PfProjectComponent,
-    ProjectContentComponent,
   ],
   imports: [
     BrowserModule,
@@ -62,11 +67,13 @@ import { ProjectContentComponent } from './project-content/project-content.compo
     MatInputModule,
     FormsModule,
     FlexLayoutModule, 
-    MatGridListModule
+   
+    
 
 
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

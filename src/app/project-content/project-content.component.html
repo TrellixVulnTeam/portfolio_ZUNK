@@ -6,14 +6,15 @@
                 <mat-card-title> {{card.title}}</mat-card-title>
             </mat-card-header>
 
-            <img mat-card-image src="./../assets/images/test.png">
+           <!-- <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>-->
+            <img mat-card-image src={{card.imgSrc}}>
 
             <mat-card-content class="text">
                 {{card.content}}
             </mat-card-content>
 
-            <mat-card-actions fxLayoutAlign="center"> 
-                <button mat-button> <mat-icon class="mat-18">insert_link</mat-icon> repository</button>
+            <mat-card-actions fxLayoutAlign="center" *ngFor="let link of links"> 
+                <button mat-button (click)="goTo(link.url)"> <mat-icon class="mat-18">insert_link</mat-icon> repository</button>
               </mat-card-actions>
         </mat-card>
       </div>
