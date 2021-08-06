@@ -12,25 +12,42 @@ export class ProjectContentComponent implements OnInit {
     window.open(url);
   }
 
-  links=[
-    {url:'https://github.com/TAndrian/MyProject'},
-    
-  ];
+
+  
 
   cards=[
-    {class:'html', title:'A responsive web page.', imgSrc:'./../assets/images/work1.png', content:'My first web page to make use of my html/css knowledge'},
-    {class:'html', title:'A responsive web page.', imgSrc:'./../assets/images/login.png', content:'My first web page to make use of my html/css knowledge'},
-    {class:'html', title:'A responsive web page.', content:'My first web page to make use of my html/css knowledge'},
-    {class:'html', title:'A responsive web page.', content:'My first web page to make use of my html/css knowledge'},
-    {class:'html', title:'A responsive web page.', content:'My first web page to make use of my html/css knowledge'},
+    {
+      title:'A responsive web page.', 
+      imgSrc:'./../assets/images/work1.png', 
+      content:'My first web page, which contain some of my projects I have made at my university, to make use of my html/css knowledges.',
+      link:'https://github.com/TAndrian/MyProject'
+    },
+
+    {
+      title:'Univ-rennes1 Login page re-imagined.', 
+      imgSrc:'./../assets/images/login1.png', 
+      content:'A login/registration page inspired from the ENT\'s original sign in page! Front-end only, build with Angular. ',
+      link:'https://github.com/TAndrian/subst.git'
+
+    },
+
+    {
+      title:'My portfolio.', 
+      imgSrc:'./../assets/images/portfolio.png', 
+      content:'This website is talking about me and what I do. It was one of my latest website I have done to introduce myself and my skills',
+      link:'https://github.com/TAndrian/portfolio.git'
+
+    },
   ]
 
  
 
   constructor() { }
 
+  
   ngOnInit(): void {
     
-  }
 
+  }
 }
+

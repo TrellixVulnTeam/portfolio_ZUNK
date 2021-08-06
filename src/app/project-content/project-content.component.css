@@ -31,3 +31,40 @@ button:hover{
     background-color: red;
     box-shadow: 0 1px 2px 4px red;
 }
+
+mat-card img{
+  object-fit: cover; /*this makes the image in src fit to the size specified below*/
+  width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+  height: 80%;
+}
+
+
+@media only screen and (max-width:900px) {
+    
+    .text{
+      font-size: 13pt;
+    }
+  
+    
+    .title{
+      font-size: 20pt;
+    }
+}
+  
+/*=========== breakpoint  (media setting) =============*/
+@media only screen and (max-width:1400px) {
+  
+    mat-card-content{
+      font-size: 14pt;
+    
+    }
+  }
+  
+
+@media only screen and (max-width:599px) {
+    mat-card-content{
+      font-size: 13pt;
+    }
+
+    
+}

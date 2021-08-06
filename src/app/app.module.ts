@@ -16,7 +16,6 @@ import { ContactComponent } from './contact/contact.component'
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
-import { NavigationComponent } from './navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MatButtonModule } from '@angular/material/button';
@@ -27,6 +26,8 @@ import { MatInputModule} from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FooterComponent } from './footer/footer.component';
+import { ImageViewerModule } from '@nghacks/image-viewer';
+
 
 
 
@@ -49,7 +50,6 @@ import { FooterComponent } from './footer/footer.component';
     PfProjectComponent,
     ProjectContentComponent,
     ContactComponent,
-    NavigationComponent,
     NavComponent,
     FooterComponent,
   ],
@@ -67,6 +67,7 @@ import { FooterComponent } from './footer/footer.component';
     MatInputModule,
     FormsModule,
     FlexLayoutModule, 
+    ImageViewerModule
    
     
 
