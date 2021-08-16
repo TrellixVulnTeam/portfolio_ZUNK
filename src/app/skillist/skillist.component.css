@@ -1,31 +1,30 @@
-.content{
+.content {
     margin-top: 16px;
 }
 
-div{
+div {
     justify-content: center;
 }
 
-.text{
+.text {
     margin-top: 25px;
     font-size: 15pt;
     padding: 0;
     text-align: justify;
 }
 
-.title{
+.title {
     margin-top: 8px;
     font-size: 18pt;
     text-align: center;
 }
 
-mat-card:hover{
+mat-card:hover {
     cursor: pointer;
     box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.671);
-    
 }
 
-.html{
+.html {
     background-image: url('https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png');
     background-size: 90px;
     background-repeat: no-repeat;
@@ -34,9 +33,7 @@ mat-card:hover{
     background-color: rgb(230, 85, 49);
 }
 
-
-
-.css{
+.css {
     background-image: url('https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png');
     background-size: 90px;
     background-repeat: no-repeat;
@@ -45,7 +42,7 @@ mat-card:hover{
     background-color: rgb(25, 150, 199);
 }
 
-.js{
+.js {
     background-image: url('https://icon-library.com/images/javascript-icon-png/javascript-icon-png-23.jpg');
     background-size: 55px;
     background-repeat: no-repeat;
@@ -54,7 +51,7 @@ mat-card:hover{
     background-color: rgb(255, 231, 11);
 }
 
-.angular{
+.angular {
     background-image: url('https://brushesmonkey.com/wp-content/uploads/2021/01/Download-Angular-Icon-vector-logo.png');
     background-size: 120px;
     background-repeat: no-repeat;
@@ -63,7 +60,7 @@ mat-card:hover{
     background-color: rgb(250, 0, 0);
 }
 
-.react{
+.react {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2560px-React-icon.svg.png');
     background-size: 100px;
     background-repeat: no-repeat;
@@ -72,7 +69,7 @@ mat-card:hover{
     background-color: rgb(0, 0, 0);
 }
 
-.vueJS{
+.vueJS {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png');
     background-size: 50px;
     background-repeat: no-repeat;
@@ -81,7 +78,7 @@ mat-card:hover{
     background-color: rgb(18, 56, 16);
 }
 
-.nodeJS{
+.nodeJS {
     background-image: url('https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_960_720.png');
     background-size: 150px;
     background-repeat: no-repeat;
@@ -90,7 +87,7 @@ mat-card:hover{
     background-color: rgb(22, 153, 15);
 }
 
-.docker{
+.docker {
     background-image: url('https://user-images.githubusercontent.com/33750251/60287980-21aa2700-990b-11e9-9c9d-a79874587a86.png');
     background-size: 100px;
     background-repeat: no-repeat;
@@ -99,7 +96,7 @@ mat-card:hover{
     background-color: rgb(183, 239, 243);
 }
 
-.java{
+.java {
     background-image: url('https://image.flaticon.com/icons/png/512/226/226777.png');
     background-size: 60px;
     background-repeat: no-repeat;
@@ -108,7 +105,7 @@ mat-card:hover{
     background-color: rgb(245, 240, 240)
 }
 
-.scala{
+.scala {
     background-image: url('https://symbols.getvecta.com/stencil_95/24_scala.d105d840d9.png');
     background-size: 100px;
     background-repeat: no-repeat;
@@ -118,56 +115,36 @@ mat-card:hover{
 }
 
 
-
 /*==================== media settings ======================*/
+
 @media only screen and (max-width:900px) {
-    
-    .text{
-      font-size: 13pt;
+    .text {
+        font-size: 13pt;
     }
-  
-    
-    .title{
-      font-size: 20pt;
+    .title {
+        font-size: 20pt;
     }
 }
-  
 
 @media only screen and (max-width:1400px) {
-  
-    .text{
-      font-size: 14pt;
+    .text {
+        font-size: 14pt;
     }
-  
-    .title{
-      font-size: 16pt;
+    .title {
+        font-size: 16pt;
     }
-  
-  }
-  
+}
 
 @media only screen and (max-width:599px) {
-    .text{
-      font-size: 13pt;
+    .text {
+        font-size: 13pt;
     }
-
-    .title{
+    .title {
         font-size: 15pt;
     }
-
-    mat-card{
+    mat-card {
         margin-left: auto;
         margin-right: auto;
         width: 200px;
     }
 }
-
-
-  
-
-
-
-
-
-
-

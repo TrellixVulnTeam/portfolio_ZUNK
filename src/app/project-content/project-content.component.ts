@@ -19,14 +19,14 @@ export class ProjectContentComponent implements OnInit {
     {
       title:'A responsive web page.', 
       imgSrc:'./../assets/images/work1.png', 
-      content:'My first web page, which contain some of my projects I have made at my university, to make use of my html/css knowledges.',
+      content:'My first web page, which contain some of my projects that I have made at my university, to make use of my html/css knowledges.',
       link:'https://github.com/TAndrian/MyProject'
     },
 
     {
-      title:'Univ-rennes1 Login page re-imagined.', 
+      title:' Login page.', 
       imgSrc:'./../assets/images/login1.png', 
-      content:'A login/registration page inspired from the ENT\'s original sign in page! Front-end only, build with Angular. ',
+      content:'A login/registration page inspired from the ENT\'s page! Front-end only, build with Angular. ',
       link:'https://github.com/TAndrian/subst.git'
 
     },

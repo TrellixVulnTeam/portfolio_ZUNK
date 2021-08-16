@@ -13,7 +13,7 @@ export class SkillistComponent implements OnInit {
     {class:'js', title:'JavaScript', content:" The tool to bring dynamicity into your web page and also a powerful tool used by back-end developer to add functionalities into it."},
     {class:'angular', title:'ANGULAR', content:"Google's library for building front-end web components. The framework I mastered so far among of the 3 popular libraries."},
     {class:'react', title:'REACT', content:"Facebook's  most popular library for building front-end reusable web components. A very interesting framework to master."},
-    {class:'vueJS', title:'VueJS', content:"The M.V.V.M front-end JavaScript framework to build interfaces and single page applications. Just like angular and react, interesting to master."},
+    {class:'vueJS', title:'VueJS', content:"The M.V.V.M front-end JavaScript framework to build interfaces and single page applications. My third favorite framework"},
     {class:'nodeJS', title:'NodeJS', content:"It is a cross platform Javascript runtime that uses the chrome's V8 engine that ensures high speed and efficiency."},
     {class:'docker', title:'DOCKER', content:"A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers."},
     {class:'java', title:'JAVA', content:"Old but gold! Class-based/object-oriented programming language, still present everywhere. I have good understanding of Java codes."},
