@@ -7,6 +7,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+	list-style: none;
 }
 
 
@@ -16,7 +18,10 @@ html{
 
 html, body { height: 100%; }
 
-body { margin: 0; font-family: sans-serif;}
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+  display: flex;
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
