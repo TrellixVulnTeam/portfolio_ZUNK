@@ -4,26 +4,42 @@
 
         <div class="separator"></div>
 
-        <form action="">
+        <form method="POST">
             <mat-card fxLayout="column">
 
                 <mat-form-field class="form-field" appearance="fill">
                     <mat-label>Your name</mat-label>
-                    <input matInput type="text">
+                    <input matInput type="text" name="name">
                 </mat-form-field>
 
                 <mat-form-field class="form-field" appearance="fill">
                     <mat-label>Your e-mail</mat-label>
-                    <input matInput type="email">
+                    <input matInput type="email" name="email">
                 </mat-form-field>
 
                 <mat-form-field class="form-field" appearance="fill">
-                    <textarea matInput placeholder="Leave me a message"></textarea>
+                    <textarea matInput placeholder="Leave me a message" name="body"></textarea>
                 </mat-form-field>
 
-                <button id="send" mat-raised-button (click)="click()"><mat-icon class="mat-18">send</mat-icon> Send</button>
+                <button id="send" mat-raised-button onclick="sendMail()"><mat-icon class="mat-18">send</mat-icon> Send</button>
             </mat-card>
 
         </form>
+        <script type="text/javascript">
+            function sendMail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : document.getElementsByName('name'),
+                Password : "97FADE45D74E566E0933AED14459388506F7",
+                To : 'rakotoarisoa.tahiriniaina@gmail.com',
+                From : document.getElementsByName('email'),
+                Subject : "This is the subject",
+                Body : "And this is the body"
+            }).then(
+            message => alert('Your message has been sent!')
+            );}
+            
+
+        </script>
     </div>
 </div>

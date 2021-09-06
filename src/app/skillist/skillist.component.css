@@ -11,6 +11,7 @@ div {
     font-size: 15pt;
     padding: 0;
     text-align: justify;
+    line-height: 27px;
 }
 
 .title {
@@ -120,6 +121,8 @@ mat-card:hover {
 @media only screen and (max-width:900px) {
     .text {
         font-size: 13pt;
+        line-height: normal;
+
     }
     .title {
         font-size: 20pt;
@@ -129,6 +132,8 @@ mat-card:hover {
 @media only screen and (max-width:1400px) {
     .text {
         font-size: 14pt;
+        line-height: normal;
+
     }
     .title {
         font-size: 16pt;
