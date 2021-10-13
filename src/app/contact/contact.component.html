@@ -1,45 +1,40 @@
 <div class="container">
-    <div class="padded-block" fxFlex.xs="100%" fxFlex.sm="100%">
+    <div class="padded-block" xFlex="35" fxFlex.xs="100%" fxFlex.sm="100%">
         <h3 id="title">Leave me a message!</h3>
 
         <div class="separator"></div>
 
-        <form method="POST">
+        <form action="https://formsubmit.co/rakotoarisoa.tahiriniaina@gmail.com" method="POST">
             <mat-card fxLayout="column">
 
                 <mat-form-field class="form-field" appearance="fill">
                     <mat-label>Your name</mat-label>
-                    <input matInput type="text" name="name">
+                    <input matInput type="text" name="name" required>
+
+                    <input type="hidden" name="_subject" value="New important message!">
+                <input type="hidden" name="_next" value="https://youtube.com">
+                <input type="hidden" name="_autoresponse" value="Thank you! I will check your message as soon as possible.">
                 </mat-form-field>
 
                 <mat-form-field class="form-field" appearance="fill">
                     <mat-label>Your e-mail</mat-label>
-                    <input matInput type="email" name="email">
+                    <input matInput type="email" name="email" required>
                 </mat-form-field>
 
                 <mat-form-field class="form-field" appearance="fill">
-                    <textarea matInput placeholder="Leave me a message" name="body"></textarea>
+                    <textarea matInput placeholder="Leave me a message" name="body" required></textarea>
                 </mat-form-field>
 
-                <button id="send" mat-raised-button onclick="sendMail()"><mat-icon class="mat-18">send</mat-icon> Send</button>
+                
+
+
+
+
+
+                <button id="send" mat-raised-button type="submit"><mat-icon class="mat-18">send</mat-icon> Send</button>
             </mat-card>
 
         </form>
-        <script type="text/javascript">
-            function sendMail(){
-            Email.send({
-                Host : "smtp.gmail.com",
-                Username : document.getElementsByName('name'),
-                Password : "97FADE45D74E566E0933AED14459388506F7",
-                To : 'rakotoarisoa.tahiriniaina@gmail.com',
-                From : document.getElementsByName('email'),
-                Subject : "This is the subject",
-                Body : "And this is the body"
-            }).then(
-            message => alert('Your message has been sent!')
-            );}
-            
-
-        </script>
+        
     </div>
 </div>
