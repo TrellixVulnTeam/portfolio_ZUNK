@@ -1,240 +1,235 @@
 .pf-skill {
-    background-image: url('https://thumbs.dreamstime.com/z/laptop-film-camera-books-wooden-table-beautiful-green-tree-background-181371123.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    width: 100%;
-    height: 500px;
-    justify-content: center;
-    text-align: center;
+  background-image: url("https://thumbs.dreamstime.com/z/laptop-film-camera-books-wooden-table-beautiful-green-tree-background-181371123.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  text-align: center;
 }
 
 .block {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 90%;
-    justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 90%;
+  justify-content: center;
 }
 
 .title {
-    font-size: 30pt;
-    text-align: left;
-    margin-top: 15px;
-    color: #fff;
-    text-shadow: 0 1px 2px #000000;
+  font-size: 30pt;
+  text-align: left;
+  margin-top: 15px;
+  color: #fff;
+  text-shadow: 0 1px 2px #000000;
 }
 
 .separator {
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: red;
-    margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: red;
+  margin-bottom: 20px;
 }
 
 .left-block {
-    display: inline-block;
-    width: 45%;
-    border-right: 2px solid red;
+  display: inline-block;
+  width: 45%;
+  border-right: 2px solid red;
 }
 
 .right-block {
-    display: inline-block;
-    width: 45%;
-    border-left: 2px solid red;
+  display: inline-block;
+  width: 45%;
+  border-left: 2px solid red;
 }
 
 .box {
-    background-color: #fff;
-    width: 100%;
-    box-shadow: 0 1px 0 1px black;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 1px 0 1px black;
 }
 
 .box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 1px 5px 4px rgba(216, 54, 54, 0.712);
-    transition: .2s;
-    cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 1px 5px 4px rgba(216, 54, 54, 0.712);
+  transition: 0.2s;
+  cursor: pointer;
 }
 
 .title1 {
-    color: red;
-    font-size: 25pt;
+  color: red;
+  font-size: 25pt;
 }
 
 mat-icon {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .box .title1 i {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .text {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 15pt;
-    text-align: justify;
-    color: #000000;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    line-height: 27px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15pt;
+  text-align: justify;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 27px;
 }
 
 .text1 {
-    font-size: 15pt;
-    text-align: justify;
-    color: #5a5a5a;
-    margin: 0;
-    padding: 0;
+  font-size: 15pt;
+  text-align: justify;
+  color: #5a5a5a;
+  line-height: 25px;
 }
-
 
 /*=============== My skills =================*/
 
 .myskill {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    margin-top: 96px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 96px;
 }
 
 .block-skill {
-    display: block;
-    width: 75%;
+  display: block;
+  width: 75%;
 }
 
 #title {
-    font-size: 22pt;
-    text-align: left;
-    color: red;
+  font-size: 22pt;
+  text-align: left;
+  color: red;
 }
 
 #title1 {
-    font-size: 40pt;
-    color: #000000;
-    margin-top: 20px;
-    text-shadow: 0 1px 2px #000000;
+  font-size: 40pt;
+  color: #000000;
+  margin-top: 20px;
+  text-shadow: 0 1px 2px #000000;
 }
-
 
 /*================= media settings ============*/
 
-@media only screen and (max-width:1400px) {
-    .pf-skill {
-        height: auto;
-    }
-    .text {
-        font-size: 15pt;
-        line-height: normal;
-
-    }
-    .text1 {
-        font-size: 15pt;
-    }
-    .title1 {
-        font-size: 20pt;
-    }
-    #title1 {
-        font-size: 20pt;
-    }
-    mat-icon {
-        font-size: 20px;
-    }
-    .box .title1 i {
-        font-size: 20px;
-    }
-    .left-block {
-        margin-left: auto;
-        margin-right: auto;
-        border: none;
-        display: block;
-        width: 80%;
-    }
-    .right-block {
-        margin-left: auto;
-        margin-right: auto;
-        border: none;
-        display: block;
-        width: 80%;
-    }
+@media only screen and (max-width: 1400px) {
+  .pf-skill {
+    height: auto;
+  }
+  .text {
+    font-size: 15pt;
+    line-height: normal;
+  }
+  .text1 {
+    font-size: 15pt;
+  }
+  .title1 {
+    font-size: 20pt;
+  }
+  #title1 {
+    font-size: 20pt;
+  }
+  mat-icon {
+    font-size: 20px;
+  }
+  .box .title1 i {
+    font-size: 20px;
+  }
+  .left-block {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    display: block;
+    width: 80%;
+  }
+  .right-block {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    display: block;
+    width: 80%;
+  }
 }
 
-@media only screen and (max-width:900px) {
-    .pf-skill {
-        height: auto;
-    }
-    .text {
-        font-size: 13pt;
-        line-height: normal;
-
-    }
-    .text1 {
-        font-size: 13pt;
-    }
-    .title1 {
-        font-size: 17pt;
-    }
-    .title {
-        font-size: 20pt;
-    }
-    #title1 {
-        font-size: 20pt;
-    }
-    mat-icon {
-        font-size: 20px;
-    }
-    .box .title1 i {
-        font-size: 20px;
-    }
-    .left-block {
-        margin-left: auto;
-        margin-right: auto;
-        border: none;
-        display: block;
-        width: 80%;
-    }
-    .right-block {
-        margin-left: auto;
-        margin-right: auto;
-        border: none;
-        display: block;
-        width: 80%;
-    }
+@media only screen and (max-width: 900px) {
+  .pf-skill {
+    height: auto;
+  }
+  .text {
+    font-size: 13pt;
+    line-height: normal;
+  }
+  .text1 {
+    font-size: 13pt;
+  }
+  .title1 {
+    font-size: 17pt;
+  }
+  .title {
+    font-size: 20pt;
+  }
+  #title1 {
+    font-size: 20pt;
+  }
+  mat-icon {
+    font-size: 20px;
+  }
+  .box .title1 i {
+    font-size: 20px;
+  }
+  .left-block {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    display: block;
+    width: 80%;
+  }
+  .right-block {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    display: block;
+    width: 80%;
+  }
 }
 
-@media only screen and (max-width:599px) {
-    .text {
-        font-size: 13pt;
-        line-height: normal;
-    }
-    .text1 {
-        font-size: 13pt;
-    }
-    .title1 {
-        font-size: 17pt;
-    }
-    #title1 {
-        font-size: 20pt;
-    }
-    .title {
-        font-size: 20pt;
-    }
-    mat-icon {
-        font-size: 20px;
-    }
-    .box .title1 i {
-        font-size: 20px;
-    }
-    .left-block {
-        border: none;
-        display: block;
-        width: 100%;
-    }
-    .right-block {
-        border: none;
-        display: block;
-        width: 100%;
-    }
+@media only screen and (max-width: 599px) {
+  .text {
+    font-size: 13pt;
+    line-height: normal;
+  }
+  .text1 {
+    font-size: 13pt;
+  }
+  .title1 {
+    font-size: 17pt;
+  }
+  #title1 {
+    font-size: 20pt;
+  }
+  .title {
+    font-size: 20pt;
+  }
+  mat-icon {
+    font-size: 20px;
+  }
+  .box .title1 i {
+    font-size: 20px;
+  }
+  .left-block {
+    border: none;
+    display: block;
+    width: 100%;
+  }
+  .right-block {
+    border: none;
+    display: block;
+    width: 100%;
+  }
 }

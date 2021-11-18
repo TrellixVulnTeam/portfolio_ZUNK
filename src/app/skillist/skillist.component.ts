@@ -17,6 +17,8 @@ export class SkillistComponent implements OnInit {
     {class:'nodeJS', title:'NodeJS', content:"It is a cross platform Javascript runtime that uses the chrome's V8 engine that ensures high speed and efficiency."},
     {class:'docker', title:'DOCKER', content:"A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers."},
     {class:'java', title:'JAVA', content:"Old but gold! Class-based/object-oriented programming language, still present everywhere. I have good understanding of Java codes."},
+    {class : 'Spring', title:'JavaSpring, JaxRS, Hibernate', content:"Usefull tool to create API, secure authentification, ideal to manage databases and create APIs."},
+    {class : 'flutter', title:'Flutter', content:"My best UI software development kit to create mobile cross platform applications aside of react native."},
     {class:'scala', title:'SCALA', content:"My first ojbect-oriented/functional programming language. The ideal tool to design and secure your softwares  ."}
   ]
   
